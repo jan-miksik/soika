@@ -10,7 +10,7 @@ export async function createSignClient(relayerRegionURL: string) {
     metadata: {
       name: 'React Wallet',
       description: 'React Wallet for WalletConnect',
-      url: 'https://walletconnect.com/',
+      url: 'https://soika-dydr423to-janmiksik.vercel.app/',
       icons: ['https://avatars.githubusercontent.com/u/37784886']
     }
   })
