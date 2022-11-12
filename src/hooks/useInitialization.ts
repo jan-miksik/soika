@@ -31,7 +31,7 @@ export default function useInitialization() {
       SettingsStore.setNearAddress(nearAddresses[0])
       SettingsStore.setElrondAddress(elrondAddresses[0])
 
-      await createSignClient(relayerRegionURL)
+      await createSignClient()
       prevRelayerURLValue.current = relayerRegionURL
 
       setInitialized(true)
